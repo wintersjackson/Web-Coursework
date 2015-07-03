@@ -1,11 +1,12 @@
 *{
-	background-color: #191919;
+	
 }
 form {
 	margin: 0;
 	padding: 1em;
 	border: 1px #f00;
 	background-color: #grey;
+	color: #white;
 }
 
 label {
