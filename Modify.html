@@ -9,14 +9,20 @@
 </head>
 
 <body>
-	<section id ="addData">
+	<section id="modifyData">
+	<h1 id="title3">Modify Product</h1>
 	
-	<h1 id="title1">Add Product</h1>
-	
-	<form id="addForm">
-			<label for="productName">Product Name</label>
-			<input type="text"  name = "prodName">
+	<form id="chooseForm">
+		<label for="chooseData">Choose product to modify</label>
+		<select id="chooseData"> </select>
+		<input id="chooseDataToMod" type="submit" name="Confirm">
+	</form>
 		
+	<form id="modifyForm">
+			<input type="text" required readonly="readonly">
+			<Label for="productName"Product Name</label>
+			<input type="text"  name = "prodName">
+			
 			<label for="productDescription">Product Description</label>
 			<input type="text"  name = "prodDescription">
 		
@@ -28,14 +34,15 @@
 		
 			<label for="prodType">Product Type</label>
 			<input type="select" name = "prodType">
+			
+			<input type="submit" name="Confirm changes">
 	</form>
 	</section>
-
 	
 <a href="Delete.html">Delete Products</a>
 </div>
-<a href="Modify.html">Modify Produts</a>
+<a href="Index.html">Add Products</a>
+		
 	
-</body>		
-
-</html>
+</body>
+</html>	
